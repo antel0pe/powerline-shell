@@ -2,40 +2,66 @@ from .default import DefaultColor
 
 
 class Color(DefaultColor):
-    USERNAME_FG = 15
-    USERNAME_BG = 4
-    USERNAME_ROOT_BG = 1
 
-    HOSTNAME_FG = 15
-    HOSTNAME_BG = 10
+    HOSTNAME_FG = 7
+    HOSTNAME_BG = 1
 
-    HOME_SPECIAL_DISPLAY = False
+    SSH_FG = 7
+    SSH_BG = 2
+
     PATH_FG = 7
-    PATH_BG = 10
-    CWD_FG = 15
-    SEPARATOR_FG = 14
+    PATH_BG = 6
 
-    READONLY_BG = 1
-    READONLY_FG = 7
+    REPO_CLEAN_FG = 0
+    REPO_CLEAN_BG = 7
+    REPO_DIRTY_FG = 7
+    REPO_DIRTY_BG = 3
 
-    REPO_CLEAN_FG = 14
-    REPO_CLEAN_BG = 0
-    REPO_DIRTY_FG = 3
-    REPO_DIRTY_BG = 0
-
-    JOBS_FG = 4
-    JOBS_BG = 8
-
-    CMD_PASSED_FG = 15
-    CMD_PASSED_BG = 2
-    CMD_FAILED_FG = 15
-    CMD_FAILED_BG = 1
+    GIT_AHEAD_BG = 4
+    GIT_AHEAD_FG = 7
+    GIT_BEHIND_BG = 9
+    GIT_BEHIND_FG = 7
+    GIT_STAGED_BG = 2
+    GIT_STAGED_FG = 7
+    GIT_NOTSTAGED_BG = 3
+    GIT_NOTSTAGED_FG = 7
+    GIT_UNTRACKED_BG = 5
+    GIT_UNTRACKED_FG = 7
+    GIT_CONFLICTED_BG = 9
+    GIT_CONFLICTED_FG = 7
 
     SVN_CHANGES_FG = REPO_DIRTY_FG
     SVN_CHANGES_BG = REPO_DIRTY_BG
+
+    JOBS_FG = 8
+    JOBS_BG = 7
+
+    K8S_FG = 7
+    K8S_BG = 0
+
+    TIME_FG = 7
+    TIME_BG = 0
+
+    READONLY_BG = 0
+    READONLY_FG = 7
+
+    CMD_PASSED_FG = 10
+    CMD_PASSED_BG = 0
+    CMD_FAILED_FG = 15
+    CMD_FAILED_BG = 1
+
+
 
     VIRTUAL_ENV_BG = 15
     VIRTUAL_ENV_FG = 2
 
     AWS_PROFILE_FG = 7
     AWS_PROFILE_BG = 2
+
+    USERNAME_FG = 15
+    USERNAME_BG = 4
+    USERNAME_ROOT_BG = 1
+
+    HOME_SPECIAL_DISPLAY = False
+    CWD_FG = 15
+    SEPARATOR_FG = 14
