@@ -4,13 +4,13 @@ from .default import DefaultColor
 class Color(DefaultColor):
 
     HOSTNAME_FG = 7
-    HOSTNAME_BG = 1
+    HOSTNAME_BG = 8
 
     SSH_FG = 7
     SSH_BG = 2
 
     PATH_FG = 7
-    PATH_BG = 6
+    PATH_BG = 4
 
     REPO_CLEAN_FG = 0
     REPO_CLEAN_BG = 7
